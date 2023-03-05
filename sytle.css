@@ -4,9 +4,16 @@
      box-sizing: border-box;
  }
  body{
-   background-color: rgb(75, 73, 73);
+   /* background-color: rgb(75, 73, 73); */
     /* background-image: url('/image/bg.jpg */
-    background-color: #0d0930;
+    /* background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+/* background-color: #0093E9; */
+/* background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
+/* background-color: #00DBDE; */
+/* background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%); */
+
+ background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
  }
 .navbar-nav{
  font-size:30px;
@@ -37,7 +44,7 @@ text-decoration-style: dotted
 .para{
  padding: 10px 150px;
  font-size:1.5rem;
- border: 2px solid red;
+ /* border: 2px solid red; */
  color: skyblue;
 }
 .image{
@@ -55,7 +62,7 @@ text-decoration-style: dotted
  padding-top: 3rem;
 }
 .sub-footer{
- color: white;
+color:rgb(138, 138, 30);
  text-align: center;
  padding-top: 20px;
 }

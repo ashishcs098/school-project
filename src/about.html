@@ -9,9 +9,7 @@
     
     <style>
      body{
-   background-color: rgb(75, 73, 73);
-    /* background-image: url('/image/bg.jpg */
-    background-color: #0d0930;
+ background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
  }
 
         *{
@@ -24,8 +22,19 @@
             background-color: lightblue;
             text-align: center;
             padding: 25px 0px;
-            font-size: 4rem;
-        }
+            font-size: 1rem;
+            font-weight: bold;
+            text-shadow:
+                        0 0 7px #fff,
+                        0 0 10px #272626,
+                       0 0 21px #fff,
+                       0 0 42px rgb(36, 238, 171),
+                       0 0 82px #0fa,
+                       0 0 92px rgb(11, 145, 100),
+                       0 0 102px #0fa,
+                       0 0 151px #0fa;
+}
+        
         .mission{
             display: flex;
             flex-direction: wrap column;
@@ -35,7 +44,7 @@
         .mission-h{
             padding: 20px 10px;
             padding-top: 60px;
-            color: blue;
+            color: rgb(254, 254, 254);
             margin: 10px;
         
         }
@@ -48,13 +57,13 @@
         }
         .vision{
             display: flex;
-            flex-direction: wrap column;
+            flex-direction:  row-reverse;
             font-size: 30px;  
             padding-top: 40px;  
         }
         .vision-h{
             padding: 20px 10px;
-            color: blue;
+            color: rgb(255, 255, 255);
             margin: 10px;
             padding-top: 40px;
         
@@ -66,6 +75,7 @@
             margin-left: 40px;
             padding-top: 10px;
             padding-right: 20px;
+            margin-right: 10px;
             color: white;
         }
         .director{
@@ -85,15 +95,41 @@
             padding: -10rem;
             /* zoom: 100%; */
         }
-        
-        .dirName{
-            
-            font-style: italic;
-            font-size: 50px;
-            text-align: center;
-           padding-left: 7rem; 
+/* creater Name  */
+     .neonText {
+  color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+}
+body {
+  font-size: 18px;
+  font-family: "Vibur", sans-serif;
+  background-color: #010a01;
+}  
 
-        }
+h1, h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+  
+h1 {
+    font-size: 4.2rem;
+}
+  
+h2 {
+    font-size: 1.8rem;
+}
+
+
+/* glowing name end */
           
   .sub-footer{
     color: rgb(255, 248, 248);
@@ -126,7 +162,13 @@
     <div class="dirImage">
         <img src="/image/me.png" alt="">
     </div>
-    <div class="dirName">Engineer AshishK</div>
+    <div class="container">
+    <h1 class="neonText">
+          ENGG
+    </h1>
+    <h2 class="neonText">AshishK</h2> 
+
+ </div>
 </div>
 <!--            carousel dark variant                     -->
 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
